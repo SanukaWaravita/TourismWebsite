@@ -18,9 +18,9 @@
 }
 .logo{
     height:60px;
-    width:50px;
+    width:60px;
     margin-left: 25px;
-    border-radius: 5px;
+    border-radius: 35px;
 }
 .navbar{
     background: linear-gradient(to right, #b6f4c2, #e7f89d, #f5cdcd);
