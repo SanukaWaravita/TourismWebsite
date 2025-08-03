@@ -55,9 +55,9 @@ header h1 {
 .card{
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    background-color: #fbf0f0;
+    background-color: #faf3f3;
 }
 .card:hover {
     transform: translateY(-5px) scale(1.02);

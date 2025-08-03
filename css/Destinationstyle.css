@@ -91,6 +91,9 @@
 .image-card:hover .img-info{
     opacity: 1;
 }
+a{
+    text-decoration: none;
+}
 
 
 /* culture page styles*/
