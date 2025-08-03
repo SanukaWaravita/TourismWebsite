@@ -1,4 +1,11 @@
 /* Optional: Add some visual styling to see the grid structure */
+#inputSearch{
+    background-color: rgba(255, 255, 255, 0.85);
+    color:black;
+    border: 1px solid #bbb;
+    border-radius: 7px;
+    padding: 6px 12px;
+}
 .col-demo {
     padding: 20px;
     margin-bottom: 10px;
@@ -32,49 +39,73 @@
 
 
 .contact-card {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(12px);
     border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-    /* border: 1px solid rgba(255, 255, 255, 0.2);*/
+    padding:40px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+label{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-left: 5px;
 }
 
 .form-control {
-    border: none;
-    border-bottom: 2px solid #e9ecef;
-    border-radius: 0;
-    background: transparent;
+    border-bottom: 2px solid #d1d1d1;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.03);
+    color: white;
+    padding: 10px 0;
     transition: all 0.3s ease;
+    padding: 10px 10px 10px 10px;
 }
 
 .form-control:focus {
     box-shadow: none;
-    border-bottom-color: #667eea;
-    background: rgba(102, 126, 234, 0.05);
+    border-bottom-color: #00ffa1;
+    background: rgba(255, 255, 255, 0.07);
+    color:white;
 }
 
 .form-label {
     font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 5px;
 }
 
 .contact-info-card {
-    background: green;
+    background: rgba(255, 255, 255, 0.285);
+    backdrop-filter: blur(10px);
     border-radius: 15px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     transition: all 0.3s ease;
     height: 100%; /* This makes all cards equal height */
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color:white;
+    padding:20px
 }
 
 .contact-info-card:hover {
-    transform: translateY(-5px);
-    background: greenyellow;
+    transform: scale(1.05) translateY(-5px);
+    border-color: rgba(4, 227, 112, 0.6);
+}
+h5{
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .contact-icon {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #00ffa1 0%, #00d4ff 100%);
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -89,16 +120,25 @@
 .section-title {
     color: white;
     font-weight: 700;
+    font-size:36px;
     margin-bottom: 50px;
     text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    padding: 15px 30px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .contact-text {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #91f07e 0%, #10f723 100%);
+    background: linear-gradient(135deg, #00ffa1 0%, #52e3f3 100%);
     border: none;
     border-radius: 50px;
     padding: 12px 40px;
@@ -109,6 +149,26 @@
 }
 
 .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+    transform:scale(1.05) translateY(-2px);
+    font-weight: bold;
+    border: 2px solid rgb(13, 188, 13);
+    box-shadow: 0 10px 20px rgba(0, 255, 204, 0.1);
+    background: linear-gradient(135deg, #079bc87b 0%, #2cf63d69 100%);
+}
+h1.text-center{
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #41f0dcf6;
+    text-shadow: 0px 4px 9px rgba(35, 175, 222, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 20px rgba(15, 19, 24, 0.2);
+}
+p.text-center{
+    font-size:1.5rem;
+    color:#ddd;
+    font-weight: bold;
 }
