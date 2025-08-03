@@ -48,7 +48,7 @@ header{
 #top-destinations {
     font-size: 3.5rem;
     font-weight: bold;
-    color: #74dff7;
+    color: #3175be;
     margin: 40px 0 20px;
     position: relative;
     text-shadow: 0 4px 9px rgba(58, 164, 193, 0.3);
@@ -58,7 +58,7 @@ header{
     display: block;
     width: 80px;
     height: 4px;
-    background-color: #80bdff;
+    background-color: #3175be;
     margin:10px auto 0;
     border-radius: 2px;
 }
@@ -110,7 +110,7 @@ header{
     text-align: center;
     font-size: 3.5rem;
     font-weight: bold;
-    color:  #74dff7;
+    color:  #3175be;
     margin-top:60px;
     margin-bottom: 40px;
     position: relative;
@@ -121,7 +121,7 @@ header{
     display: block;
     width: 80px;
     height: 4px;
-    background-color: #84bdfa;
+    background-color: #3175be;
     margin: 12px auto 0;
     border-radius: 2px;
 }

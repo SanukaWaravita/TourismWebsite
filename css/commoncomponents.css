@@ -20,7 +20,7 @@ body::before {
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
     margin-top: 10px;
     padding: 20px;
-    background-color: rgba(110, 126, 129, 0.937);
+    background-color: rgba(217, 228, 230, 0.937);
 }
 .navbar-brand {
     font-size: 32px;
