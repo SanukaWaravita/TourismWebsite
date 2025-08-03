@@ -14,7 +14,7 @@
     background-color: rgba(142, 142, 142, 0.5);
     padding: 6px;
     border-radius: 10px;
-    box-shadow: 1px 4px 15px 3px rgba(40, 39, 39, 0.3);
+    box-shadow: 2px 4px 15px rgba(255, 250, 250, 0.3);
 }
 .logo{
     height:60px;
@@ -25,30 +25,40 @@
 .navbar{
     background: linear-gradient(to right, #b6f4c2, #e7f89d, #f5cdcd);
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(39, 39, 39, 0.3);
+    box-shadow: 0 4px 15px rgba(41, 38, 38, 0.3);
 }
-header h1 {
-  color: #00695c;
-  text-shadow: 0px 4px 9px rgba(0, 0, 0, 0.1);
+header{
+    box-shadow: 2px 4px 15px rgba(183, 182, 182, 0.5);
+    border-radius: 20px;
+    padding: 2px;
+
+}
+.heading{
+    color: #23c9b6;
+    text-shadow: 0px 4px 9px rgba(35, 175, 222, 0.3);
+    font-size: 4rem;
+    font-weight: bold;
 }
 #p1{
     font-weight: 700;
-    font-size: 22px;
+    font-size: 25px;
     font-style: italic;
+    color: #202123;
 }
 #top-destinations {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
-    color: #007bff;
+    color: #74dff7;
     margin: 40px 0 20px;
     position: relative;
+    text-shadow: 0 4px 9px rgba(58, 164, 193, 0.3);
 }
 #top-destinations::after {
     content: '';
     display: block;
     width: 80px;
     height: 4px;
-    background-color: #1f88f7;
+    background-color: #80bdff;
     margin:10px auto 0;
     border-radius: 2px;
 }
@@ -78,6 +88,7 @@ header h1 {
 .card-text{
     font-size: 1.1em;
     color: rgb(51, 51, 51);
+    font-weight: 600;
 }
 .card .btn{
     background: linear-gradient(to right , #74f66b, #2fa599);
@@ -92,24 +103,25 @@ header h1 {
 }
 .card .btn:hover{
     background: linear-gradient(to right, #4db6ac, #00b527);
-    color: #fff;
+    color: #b4b1b1;
     transform: scale(1.05);
 }
 .faq-heading{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
-    color:  #005f73;
+    color:  #74dff7;
     margin-top:60px;
     margin-bottom: 40px;
     position: relative;
+    text-shadow: 0 4px 9px rgba(58, 164, 193, 0.3);
 }
 .faq-heading::after {
     content: '';
     display: block;
     width: 80px;
     height: 4px;
-    background-color: #0a9396;
+    background-color: #84bdfa;
     margin: 12px auto 0;
     border-radius: 2px;
 }
@@ -123,7 +135,7 @@ header h1 {
 }
 .accordion-button{
     background-color: #e0f7fa;
-    font-size: 17px;
+    font-size: 21px;
     color: #00796b;
     font-weight: bold;
     padding: 1rem;
@@ -134,7 +146,7 @@ header h1 {
     color: #004d40;
 }
 .accordion-body {
-    font-size:16px;
+    font-size:18px;
     font-weight: 600;
     padding: 1rem;
     margin-left:30px;

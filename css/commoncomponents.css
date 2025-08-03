@@ -20,7 +20,7 @@ body::before {
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
     margin-top: 10px;
     padding: 20px;
-    background-color: rgba(217, 227, 230, 0.9);
+    background-color: rgba(110, 126, 129, 0.937);
 }
 .navbar-brand {
     font-size: 32px;
@@ -91,8 +91,9 @@ body::before {
 footer{
     font-style:23px;  
     font-weight: bold;
-    color: rgb(44, 42, 42);   
+    color: rgb(34, 32, 32);   
     text-align: center;
     padding: 20px;
-    font-size: 18px; 
+    font-size: 20px; 
+    margin-top: 20px;
 }
