@@ -91,3 +91,10 @@
 .image-card:hover .img-info{
     opacity: 1;
 }
+
+
+/* culture page styles*/
+
+.image-grid.religion-grid{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));     
+}
